@@ -8,18 +8,30 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="https://w7.pngwing.com/pngs/944/1020/png-transparent-cupcake-illustration-cupcake-icing-bakery-chocolate-cake-cartoon-hand-painted-blue-sugar-ball-cupcakes-watercolor-painting-blue-cream.png" type="image/x-icon">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              'header': ['Great Vibes',' cursive']
+            },
+            colors: {
+              main: '#01AFAD',
+            }
+          }
+        }
+      }
+    </script>
   </head>
   <body>
-    <div class="container">
-      <section class="menu">
-        <div class="title">
-          <h2>Tatlı Dükkanı Menü</h2>
-        </div>
-        <div class="btn-container"></div>
-        <div class="section-center row">
-        </div>
-      </section>
+    <div class="container flex flex-col justify-center items-center mx-auto min-[0px]:max-sm:px-0 py-8 px-24">
+      <header>
+        <h1 class="font-header text-8xl text-main drop-shadow-xl text-center">Tatlı Dükkanı</h1>
+      </header>
+      <nav class="btn-container flex gap-8 min-[0px]:max-sm:gap-2 py-4 min-[0px]:max-sm:px-1"></nav>
+      <section class="section-center grid min-[0px]:max-sm:flex  min-[0px]:max-sm:justify-center min-[0px]:max-sm:items-center min-[0px]:flex-col grid-cols-2 justify-center items-center p-8 min-[0px]:max-sm:p-0 gap-14 min-[0px]:max-sm:gap-0 md:gap-4 w-full mx-auto "></section>
     </div>
     <script src="script.js"></script>
-  </body>
+</body>
+  
 </html>
