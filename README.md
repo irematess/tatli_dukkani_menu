@@ -1,15 +1,12 @@
 
-# Tatlı Dükkanı Menü
-Bir pastane menüsü
-
 
 ## Kullanılan Teknolojiler
-HTML,CSS,Bootstrap,Javascript
+HTML,CSS,Tailwind,Javascript
 
 
   
 
 
-![Uygulama Ekran Görüntüsü](https://im3.ezgif.com/tmp/ezgif-3-989618d7f5.gif)
+![Uygulama Ekran Görüntüsü](https://s7.ezgif.com/tmp/ezgif-7-7711982cff.gif)
 
   
